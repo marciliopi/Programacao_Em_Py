@@ -8,7 +8,7 @@ mes = 1
 saldo = deposito_inicial
 while mes <= 24:
     saldo = saldo + (saldo * (taxa_juros / 100))
-    print(f"Saldo do mês{mes} é de R${saldo:5.2f}.")
+    print(f"Saldo do mês:{mes} é de R$ {saldo:5.2f}.")
     mes = mes + 1
 print(f"O ganho obtido com os juros foi de R${saldo-deposito_inicial:8.2f}.")
                                     
